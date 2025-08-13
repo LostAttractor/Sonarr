@@ -72,7 +72,11 @@ namespace NzbDrone.Core.Parser
             { "mac", Language.Macedonian },
             { "rum", Language.Romanian },
             { "yue", Language.Chinese },
-            { "zhtw", Language.Chinese }
+            { "zhtw", Language.Chinese },
+            { "chs", Language.Chinese },
+            { "cht", Language.Chinese },
+            { "sc", Language.Chinese },
+            { "tc", Language.Chinese }
         };
 
         public static IsoLanguage Find(string isoCode)
